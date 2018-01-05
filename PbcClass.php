@@ -16,9 +16,8 @@ class PbcClass extends AbstractExternalModule {
         return("<p>Hello, World</p>\n\n");
     }
 
-    function query() {
-        $result = $this->client->request('getProtocol', array('protocolNo' => 'OCR20002'));
-        return($result);
+    function prettify_object($stuff) {
+        return("<pre>" . print_r($stuff, true) ."</pre>");
     }
 
 }

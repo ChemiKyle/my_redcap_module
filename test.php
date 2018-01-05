@@ -6,5 +6,5 @@ $pbc = new \UniversityOfFlorida\PbcClass\PbcClass();
 $result = $pbc->hw();
 print($result);
 
-$result = $pbc->query();
-print("<pre>" . print_r($result, true) ."</pre>");
+$result = $pbc->client->request('getProtocol', array('protocolNo' => 'OCR20002'));
+print($pbc->prettify_object($result));
