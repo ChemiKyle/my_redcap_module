@@ -1,0 +1,12 @@
+{
+   "name": "PBC Module",
+   "namespace": "UfNamespace\\PbcClass",
+   "description": "PBC's test module. It does stuff and things",
+   "authors": [
+       {
+            "name": "Philip Chase",
+            "email": "pbc@ufl.edu",
+            "institution": "University of Florida - CTSI"
+        }
+    ]
+}
