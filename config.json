@@ -1,6 +1,6 @@
 {
    "name": "PBC Module",
-   "namespace": "UfNamespace\\PbcClass",
+   "namespace": "UniversityOfFlorida\\PbcClass",
    "description": "PBC's test module. It does stuff and things",
    "authors": [
        {
@@ -8,5 +8,14 @@
             "email": "pbc@ufl.edu",
             "institution": "University of Florida - CTSI"
         }
-    ]
+    ],
+   "links": {
+      "project": [
+         {
+            "name": "Test Link",
+            "icon": "brick",
+            "url": "test.php"
+         }
+      ]
+   }
 }
