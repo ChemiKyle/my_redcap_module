@@ -1,7 +1,7 @@
 {
-   "name": "PBC Module",
+   "name": "PBC's Module",
    "namespace": "UniversityOfFlorida\\PbcClass",
-   "description": "PBC's test module. It does stuff and things",
+   "description": "PBC's test module. At the moment it just tests CTS-IT's REDCap OnCore Client.",
    "authors": [
        {
             "name": "Philip Chase",
